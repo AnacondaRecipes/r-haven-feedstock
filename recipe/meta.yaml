@@ -10,8 +10,8 @@ package:
 source:
   fn: haven_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/haven_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/haven/haven_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/haven_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/haven/haven_{{ version }}.tar.gz
   sha256: 089fb4d0955f320abc48d0a3031799f96f3a20b82492474743903fdf12001d19
 
 
